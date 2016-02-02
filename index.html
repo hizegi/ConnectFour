@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>Connect Four!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- "pop up" messages -->
+	<section id="popup">
+		<div class="dialogbox">WELCOME PLAYERS!
+			<p>Enter your names:</p>
+			<input id="p1-input" placeholder="Player 1 Name">
+			<input id="p2-input" placeholder="Player 2 Name">
+			<div id='ready'>Ready!</div>
+		</div>
+
+		<div id="message"><p id="msg">Message goes here</p></div>
+
+		<div id="click">
+			<h3>How to Play:</h3><br>
+			<p> 1. Click any column to drop a donut.</p>
+			<p> 2. Donuts can line up/down, left/right, and diagonally.</p>
+			<p> 3. Connect four in a row before your opponent to win!</p>
+			<div>
+				<img class ="icon" src="images/donut1.png">
+		</div><br>
+			<div> <h2><strong>PLAY GAME!</strong></h2> </div>
+		</div>
+		<div id="playagain">
+			<div id="replay"> <h2><strong>PLAY AGAIN!</strong></h2> </div>
+			<div id="newgame"> <h2><strong>I'M DONE!</strong></h2> </div>
+		</div>
+	</section>
+
+<!-- Board DIVS: 6 rows, 7 columns -->
+	<div id="wrap">
+		<div id="board">
+			<div id= "col1" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col2" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col3" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col4" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col5" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col6" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div id="col7" class="col">
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
