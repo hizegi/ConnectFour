@@ -1,5 +1,6 @@
 # Connect Four
-## Go Nuts 4 Donuts edition
+#### Go Nuts 4 Donuts
+http://hizegi.github.io/ConnectFour
 
 ## Description
 
